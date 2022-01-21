@@ -7,7 +7,9 @@ We have 1080 training examples and 120 test examples, where each example is of s
 
 ![One-hot encoding of class labels](images/signs_data_kiank.png)
 
-## Convolutional neural network architecture
+## Residual Network architecture
 We used TensorFlow Keras Functional API to build the ResNet-50 model depicted below. 
 
 ![ResNet-50 architecture](images/resnet_kiank.png)
+
+We trained the convolutional neural network for 10 epochs with the Keras model's `.fit()` method and evaluated its performance with the model's `evaluate()` method. The model shows the training accuracy of 0.93 and the test accuracy of 0.94.
